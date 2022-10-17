@@ -26,7 +26,7 @@ const Hero = () => {
         <a
           passhref
           href="https://www.skipthedishes.com/123-pizza-33-st-west"
-          rel="noreferer"
+          rel="noreferrer"
           target="_blank"
         >
           <button className="mainButton mt-4 ">Place An Order</button>

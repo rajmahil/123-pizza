@@ -61,6 +61,7 @@ const Specialities = () => {
             <div className="bg-black absolute z-[5] w-[420px] h-[550px] opacity-50" />
             <Image
               src={pizza}
+              alt="Delicious Pizza | 123 Pizza in Saskatoon, SK"
               layout="fill"
               objectFit="cover"
               objectPosition="center"
@@ -71,7 +72,7 @@ const Specialities = () => {
       <a
         passhref
         href="https://www.skipthedishes.com/123-pizza-33-st-west"
-        rel="noreferer"
+        rel="noreferrer"
         target="_blank"
       >
         <button className="mainButton bg-red text-white mt-20 border-4 border-red hover:border-red hover:bg-yellow hover:text-red ">

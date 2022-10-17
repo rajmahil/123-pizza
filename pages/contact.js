@@ -1,14 +1,17 @@
 import React from "react";
 import ContactForm from "../components/ContactForm";
+import Head from "next/head";
 
 const contact = () => {
   return (
     <>
       <Head>
-        <title>123 Pizza | Indigenous Cuisine in Saskatoon, Saskatchewan</title>
+        <title>
+          Contact Us | Indigenous Cuisine in Saskatoon, Saskatchewan
+        </title>
         <meta
           name="title"
-          content="123 Pizza | Indigenous Cuisine in Saskatoon, Saskatchewan"
+          content="Contact Us | Indigenous Cuisine in Saskatoon, Saskatchewan"
         />
         <meta
           name="description"

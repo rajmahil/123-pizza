@@ -17,8 +17,8 @@ const Testimonials = () => {
           </div>
           We saw the Indian Taco and had to stop. The bannock was incredible,
           fluffy, tasty, and held all the toppings together. We got 2 because 1
-          wasn't enough. This place needs so much more recognition because they
-          have so many traditional tastes mixed with modern food.
+          wasn&apos;t enough. This place needs so much more recognition because
+          they have so many traditional tastes mixed with modern food.
         </div>
         <div className="reviewBox">
           <div className="text-[4em]">
@@ -47,7 +47,7 @@ const Testimonials = () => {
             <MdFormatQuote />
           </div>
           Awesome place, they even had indigenous cuisine. The staff have the
-          best suggestions if you're not sure on what to eat. Overall great
+          best suggestions if you&apos;re not sure on what to eat. Overall great
           customer service, thanks for the great supper today
         </div>
         <div className="reviewBox">
@@ -77,10 +77,10 @@ const Testimonials = () => {
           <div className="text-[4em]">
             <MdFormatQuote />
           </div>
-          We ordered 18 pizza's for tonight's Parent's Night Out party at
-          Momentum Martial Arts, and not only was the pizza delicious (omg the
-          crust! the cheese!), but it was also delivered on time and piping hot!
-          The kids (and coaches) loved it!
+          We ordered 18 pizza&apos;s for tonight&apos;s Parent&apos;s Night Out
+          party at Momentum Martial Arts, and not only was the pizza delicious
+          (omg the crust! the cheese!), but it was also delivered on time and
+          piping hot! The kids (and coaches) loved it!
         </div>
         <div className="reviewBox">
           <div className="text-[4em]">

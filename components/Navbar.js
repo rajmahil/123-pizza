@@ -32,7 +32,7 @@ const Navbar = ({ toggle, isMenuOpen }) => {
           <a
             passhref
             href="https://www.skipthedishes.com/123-pizza-33-st-west"
-            rel="noreferer"
+            rel="noreferrer"
             target="_blank"
           >
             <button className="mainButton text-[1.1em] text-black">

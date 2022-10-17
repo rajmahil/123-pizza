@@ -49,7 +49,7 @@ const Footer = () => {
             <a
               passhref
               href="https://www.facebook.com/123PizzaLoveAtFirstBite"
-              rel="noreferer"
+              rel="noreferrer"
               target="_blank"
             >
               <div className="text-[2.2em] mr-2 text-black hover:bg-darkYellow transition-all cursor-pointer bg-yellow rounded-full w-[60px] h-[60px] flex items-center justify-center">
@@ -59,7 +59,7 @@ const Footer = () => {
             <a
               passhref
               href="https://www.instagram.com/pizza_yxe/"
-              rel="noreferer"
+              rel="noreferrer"
               target="_blank"
             >
               <div className="text-[2.2em] mr-2 text-black hover:bg-darkYellow transition-all cursor-pointer bg-yellow rounded-full w-[60px] h-[60px] flex items-center justify-center">
@@ -76,7 +76,7 @@ const Footer = () => {
           className="underline"
           href="https://www.cococreativeweb.com/"
           target="_blank"
-          rel="noreferer"
+          rel="noreferrer"
         >
           Website by 306 Technologies, formerly as Coco Creative
         </a>

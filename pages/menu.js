@@ -259,8 +259,8 @@ const menu = () => {
           <div className="flex items-center justify-center flex-col mb-10">
             <h2 className="font-[900] text-[2.2em] uppercase">Pizza</h2>
             <div className="font-[600] text-[1.2em] text-center">
-              The prices showing are for 16" pizza's, we also have medium and
-              small size**
+              The prices showing are for 16&quot; pizza&apos;s, we also have
+              medium and small size**
             </div>
           </div>
           <div className="flex flex-row flex-wrap  w-full">
