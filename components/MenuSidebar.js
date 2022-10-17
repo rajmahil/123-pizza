@@ -14,13 +14,13 @@ const MenuSidebar = ({ isMenuOpen, toggle }) => {
         </div>
         <h2 className="uppercase font-[900] text-[3em]">Menu</h2>
         <ul className="flex flex-col items-start text-left mt-20">
-          <Link passHref href="/#about">
+          <Link passHref href="/#about" onClick={toggle}>
             <li className="navLink mb-14 ml-0">About</li>
           </Link>
-          <Link passHref href="/menu">
+          <Link passHref href="/menu" onClick={toggle}>
             <li className="navLink mb-14 ml-0">Menu</li>
           </Link>
-          <Link passHref href="/contact">
+          <Link passHref href="/contact" onClick={toggle}>
             <li className="navLink mb-14 ml-0">Contact</li>
           </Link>
           <a
@@ -28,6 +28,7 @@ const MenuSidebar = ({ isMenuOpen, toggle }) => {
             href="https://www.skipthedishes.com/123-pizza-33-st-west"
             rel="noreferrer"
             target="_blank"
+            onClick={toggle}
           >
             <button className="mainButton text-[1.1em] text-black">
               Order From Skip The Dishes

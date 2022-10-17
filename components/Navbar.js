@@ -9,7 +9,7 @@ const Navbar = ({ toggle, isMenuOpen }) => {
     <navbar className="fixed w-full top-0 left-0 bg-red z-[100] h-[8vh] flex items-center justify-between">
       <div className="w-[90%] ml-auto mr-auto text-white  flex items-center justify-between ">
         <Link passHref href="/">
-          <div className="cursor-pointer relative w-[160px] h-[160px] mt-[60px]">
+          <div className="cursor-pointer relative 600:w-[160px] 600:h-[160px] w-[130px] h-[130px] mt-[60px]">
             <Image
               src={pizzaLogo}
               alt="123 Pizza Logo - Indigenous cuisine in Saskatoon, Saskatchewan"

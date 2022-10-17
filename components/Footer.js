@@ -6,7 +6,7 @@ import { RiInstagramFill } from "react-icons/ri";
 
 const Footer = () => {
   return (
-    <div className="bg-black p-[90px] pb-[40px] flex flex-col items-center">
+    <div className="bg-black p-[45px]  600:p-[90px] pb-[40px] flex flex-col items-center">
       <div className="max-w-[1600px] text-white ml-auto mr-auto flex flex-col 1200:flex-row flex-wrap w-full border-b-2 border-white pb-[90px]">
         <div className="footerCol">
           <div className="relative w-[200px] h-[200px]">
@@ -69,7 +69,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="text-white mt-8">
+      <div className="text-white mt-8 text-center">
         © copyright {new Date().getFullYear()} by 123 Pizza. All rights
         reserved.{" "}
         <a
