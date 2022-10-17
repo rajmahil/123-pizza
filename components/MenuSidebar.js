@@ -14,15 +14,21 @@ const MenuSidebar = ({ isMenuOpen, toggle }) => {
         </div>
         <h2 className="uppercase font-[900] text-[3em]">Menu</h2>
         <ul className="flex flex-col items-start text-left mt-20">
-          <Link passHref href="/#about" onClick={toggle}>
-            <li className="navLink mb-14 ml-0">About</li>
-          </Link>
-          <Link passHref href="/menu" onClick={toggle}>
-            <li className="navLink mb-14 ml-0">Menu</li>
-          </Link>
-          <Link passHref href="/contact" onClick={toggle}>
-            <li className="navLink mb-14 ml-0">Contact</li>
-          </Link>
+          <div onClick={toggle}>
+            <Link passHref href="/#about">
+              <li className="navLink mb-14 ml-0">About</li>
+            </Link>
+          </div>
+          <div onClick={toggle}>
+            <Link passHref href="/menu">
+              <li className="navLink mb-14 ml-0">Menu</li>
+            </Link>
+          </div>
+          <div onClick={toggle}>
+            <Link passHref href="/contact">
+              <li className="navLink mb-14 ml-0">Contact</li>
+            </Link>
+          </div>
           <a
             passhref
             href="https://www.skipthedishes.com/123-pizza-33-st-west"
