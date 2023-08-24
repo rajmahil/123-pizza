@@ -31,7 +31,7 @@ const Navbar = ({ toggle, isMenuOpen }) => {
           </Link>
           <a
             passhref
-            href="https://www.skipthedishes.com/123-pizza-33-st-west"
+            href="https://www.skipthedishes.com/123-pizza-33-st-w"
             rel="noreferrer"
             target="_blank"
           >
