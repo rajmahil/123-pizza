@@ -31,7 +31,7 @@ const MenuSidebar = ({ isMenuOpen, toggle }) => {
           </div>
           <a
             passhref
-            href="https://www.skipthedishes.com/123-pizza-33-st-w"
+            href="https://www.skipthedishes.com/123-pizza-33rd-st-w"
             rel="noreferrer"
             target="_blank"
             onClick={toggle}
